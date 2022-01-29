@@ -1,0 +1,43 @@
+//------- MENU DE NAVEGACION----------//
+.header{
+    background-image: url(/Img/Captura-de-pantalla.2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    ul{
+            padding: 2rem;
+    list-style-type:none;
+    }
+    li{
+        display: inline-block;
+    }
+    a{    
+    text-decoration: none;
+    color:aliceblue;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(2, 18, 22);
+    font-size: 1.2rem;
+    padding: 1.1rem;
+        
+    }
+    .titulo{
+        color: #09040afb;
+    font-size: 10rem;
+    padding: 2rem;
+    text-align: center;
+    }
+    
+}
+
+.contendor{
+    width: 100%;
+    margin: 0%auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.header__navbar--principal{
+    text-align: center;
+    font-size: 2rem;
+}

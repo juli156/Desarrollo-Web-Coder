@@ -4,11 +4,6 @@
 }
 
 /*-----------------header.index-------------------*/
-body {
-  font-family: 'Nunito', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
 .header {
   background-image: url(/Img/Captura-de-pantalla.2.png);
   background-position: center;
@@ -16,16 +11,16 @@ body {
   background-repeat: no-repeat;
 }
 
-.header__nav ul {
+.header ul {
   padding: 2rem;
   list-style-type: none;
 }
 
-.header__nav li {
+.header li {
   display: inline-block;
 }
 
-.header__nav a {
+.header a {
   text-decoration: none;
   color: aliceblue;
   text-transform: uppercase;
@@ -35,9 +30,9 @@ body {
   padding: 1.1rem;
 }
 
-.header__titulo {
+.header .titulo {
   color: #09040afb;
-  font-size: 5rem;
+  font-size: 10rem;
   padding: 2rem;
   text-align: center;
 }
@@ -46,6 +41,12 @@ body {
   width: 100%;
   margin: 0%auto;
   text-align: center;
+  font-size: 2rem;
+}
+
+.header__navbar--principal {
+  text-align: center;
+  font-size: 2rem;
 }
 
 /*-------contenido---------*/
@@ -92,19 +93,25 @@ body {
   background-color: #151418;
   color: white;
   padding: 1rem;
+  font-size: 1rem;
 }
 
-.footer__menu {
+.footer menu {
   list-style-type: none;
   text-align: center;
 }
 
-.footer__menu a {
+.footer a {
   color: white;
   text-decoration: none;
 }
 
 /*----------------contacto-----------------*/
+.header__titulo {
+  font-size: 3rem;
+  text-align: center;
+}
+
 .contacto {
   padding: 15rem 20px;
   margin: auto;
@@ -122,7 +129,7 @@ body {
 .titulo {
   margin-bottom: 20px;
   text-align: center;
-  margin: 0rem;
+  margin: 4rem;
   color: #050101;
 }
 
@@ -168,17 +175,17 @@ body {
   display: grid;
 }
 
-.galeria__titulo {
-  color: white;
-}
-
-.imagenes {
+.galeria .imagenes {
   display: -ms-grid;
   display: grid;
   justify-items: end;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+}
+
+.galeria .titulo {
+  color: white;
 }
 
 /*------------Blog--------------*/
