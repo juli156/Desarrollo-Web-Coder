@@ -2,9 +2,10 @@
     padding: 0%;
     margin: 0px;
 }
-
-/*-----------------header.index-------------------*/
 @import "header";
+@import "footer";
+@import "condicionales";
+
 /*-------contenido---------*/
 .contenedorFlex{
     display:flex;
@@ -31,31 +32,6 @@
     width: 50%;
     
 }
-
-/*-----------------footer---------------------------*/
-
-.footer__flex{
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer{
-    background-color: #151418;
-    color: white;
-    padding: 1rem;
-    font-size: 1rem;
-    menu{
-            list-style-type: none;
-    text-align: center;
-
-    }
-    a{
-            color: white;
-    text-decoration: none;
-    
-    }
-}
-
 
 /*----------------contacto-----------------*/
 .header__titulo{
@@ -125,6 +101,14 @@
     }
     .titulo{
         color: white;
+    }
+    .img-froozenimg{
+        animation-name: mianimacion;
+        animation-duration: 4s;
+    }
+    @keyframes mianimacion {
+        50%{ background-image:url(/Img/galleta.shrek.png);}
+        
     }
 }
 

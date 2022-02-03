@@ -41,3 +41,22 @@
     text-align: center;
     font-size: 2rem;
 }
+
+@media(max-width: 400px){
+    .titulo{
+        color: #ebd3a0fb;
+    font-size: 5rem;
+    text-align: left;
+    }
+    a{    
+        color:rgb(0, 0, 0);
+        background-color: rgb(242, 246, 247);
+            
+        }
+        .header{
+            background-image: url(/Img/cookies.harry2.png);
+            background-position: center;
+            background-size: cover;
+}
+
+}

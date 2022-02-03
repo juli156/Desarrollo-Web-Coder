@@ -3,7 +3,6 @@
   margin: 0px;
 }
 
-/*-----------------header.index-------------------*/
 .header {
   background-image: url(/Img/Captura-de-pantalla.2.png);
   background-position: center;
@@ -49,6 +48,52 @@
   font-size: 2rem;
 }
 
+@media (max-width: 400px) {
+  .titulo {
+    color: #ebd3a0fb;
+    font-size: 5rem;
+    text-align: left;
+  }
+  a {
+    color: black;
+    background-color: #f2f6f7;
+  }
+  .header {
+    background-image: url(/Img/cookies.harry2.png);
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.footer__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer {
+  background-color: #151418;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.footer menu {
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ebe1aa;
+}
+
 /*-------contenido---------*/
 .contenedorFlex {
   display: -webkit-box;
@@ -78,32 +123,6 @@
 
 .img__locales__img {
   width: 50%;
-}
-
-/*-----------------footer---------------------------*/
-.footer__flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.footer {
-  background-color: #151418;
-  color: white;
-  padding: 1rem;
-  font-size: 1rem;
-}
-
-.footer menu {
-  list-style-type: none;
-  text-align: center;
-}
-
-.footer a {
-  color: white;
-  text-decoration: none;
 }
 
 /*----------------contacto-----------------*/
@@ -186,6 +205,25 @@
 
 .galeria .titulo {
   color: white;
+}
+
+.galeria .img-froozenimg {
+  -webkit-animation-name: mianimacion;
+          animation-name: mianimacion;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+@-webkit-keyframes mianimacion {
+  50% {
+    background-image: url(/Img/galleta.shrek.png);
+  }
+}
+
+@keyframes mianimacion {
+  50% {
+    background-image: url(/Img/galleta.shrek.png);
+  }
 }
 
 /*------------Blog--------------*/
