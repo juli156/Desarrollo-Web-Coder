@@ -1,0 +1,1 @@
+Cambie el Header y el footer de la pagina, los textos cambie su font-family, agrege 2 animaciones con boostrap.
