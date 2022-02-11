@@ -1,0 +1,23 @@
+/*MAPS */
+$mapredes:(facebook:red,instagram:blue,twitter:yellow);
+
+
+@each $red, $color in $mapredes {
+    .#{$red}--link{
+        color: $color;
+    }
+}
+
+/*MAP - GET*/
+
+$estilo:(
+    color:red,
+    tamfuente:30px,
+);
+
+.pepelepu{
+    background-color: map-get($estilo, color);
+    font-size: map-get($estilo , tamfuente);
+    height: 150px;
+    width: 150px;
+}

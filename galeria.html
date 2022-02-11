@@ -1,81 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="ejemplo de palabras clave de cookies">
+    <meta name="keywords" content="Cookies decoradas, Galletitas, Pasteleria, Cocina, Decoracion ">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximus-scale=1.0, minimun-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
-<body class="galeria">
-                <!-- header -->
-                <header class="header">
-                    <nav class="header__nav">
-                        <ul class="header__navbar--principal">
-                            <li ><a href="Index.html">inicio</a></li>
-                            <li><a href="tienda.html">Tienda</a> </li>
-                            <li><a href="galeria.html">Galeria</a> </li>
-                            <li><a href="contacto.html">Contacto</a> </li>
-                            <li><a href="blog.html">Blog</a> </li>
+<body class="fondo-galeria">
+                <!------------------- header ----------------------->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="/Img/Logo.jpg" class="img-fluid"  width="100px" height="100px"  alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto m-2 mb-lg-0 ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sobre nosotros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="galeria.html">Galeria</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+                            </ul>
+                        </li>
                         </ul>
-                    </nav>
-                    <span class="header__titulo">Cookie planeta</span>
-                </header>
+                        <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                    </div>
+                </nav>
                         <!---------- /header ----------->
                         <!---------- MAIN ---------->
-        <H2 class="galeria__titulo">Galeria</H2>
-        <div class="galeria">
+        <header class="galeria">
+                <div class="bg-rgba(207, 206, 202, 0.973) text-center">
+                    <img src="/Img/galleta.froozen.png" class=img-thumbnail  alt="">
+                    <img src="/Img/galleta.shrek.png" class="img-thumbnail"  alt="">
             <div class="bg-rgba(207, 206, 202, 0.973) text-center">
-            <img src="/Img/galleta.froozen.png" class="img-froozen" alt="fotos"class=img-thumbnail>
-            <img src="/Img/galleta.shrek.png" class="rounded float-end"  alt="">
-            </div>
-        </div>
-        <div class="imagenes">
-            <div class="bg-rgba(207, 206, 202, 0.973) text-center">
-            <img src="/Img/cookies.harry2.png" alt="" class=" img-thumbnail">
-            <img src="/Img/galleta.tienda.png" alt="" class=" img-thumbnail">
+                <img src="/Img/cookies.harry2.png" alt="" class=" img-thumbnail">
+                <img src="/Img/galleta.tienda.png" alt="" class=" img-thumbnail">
 </div>
-        </div>
+</div>
+</header>
 
                     <!---------- footer----------->
-<footer class="footer">
-    <div class="footer__flex">
-    <div>
-    <h4>Nuestro sitio</h4>
-    <ul class="footer__menu">
-        <ul class="header__navbar--principal"></ul>
-        <li ><a href="Index.html">inicio</a></li>
-        <li><a href="tienda.html">Tienda</a> </li>
-        <li><a href="galeria.html">Galeria</a> </li>
-        <li><a href="contacto.html">Cotacto</a> </li>
-        <li><a href="blog.html">Blog</a> </li>
-    </ul>
-</div>
-<div>
-    <h4>Comunidad</h4>
-    <ul class="footer__menu">
-        <ul class="header__navbar--principal"></ul>
-        <li ><a href="Index.html">inicio</a></li>
-        <li><a href="tienda.html">Tienda</a> </li>
-        <li><a href="galeria.html">Galeria</a> </li>
-        <li><a href="contacto.html">Cotacto</a> </li>
-        <li><a href="blog.html">Blog</a> </li>
-    </ul>
-</div>
-<div>
-    <h4>Estamos con vos</h4>
-    <ul class="footer__menu">
-        <ul class="header__navbar--principal"></ul>
-        <li ><a href="Index.html">inicio</a></li>
-        <li><a href="tienda.html">Tienda</a> </li>
-        <li><a href="galeria.html">Galeria</a> </li>
-        <li><a href="contacto.html">Cotacto</a> </li>
-        <li><a href="blog.html">Blog</a> </li>
-    </ul>
-</div>
-</div>
-</footer>
+                    <footer class="pie-pagina">
+                        <div class="grupo-1">
+                            <div class="box">
+                                <figure>
+                                    <a href="#">
+                                        <img src="/Img/Logo.jpg" alt="Logo de cookie planeta">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="box">
+                                <h2>SOBRE NOSOTROS</h2>
+                                <P>Cookie planeta es un emprendimiento familiar, nos dedicamos a la elaboracion y decoracion de cookies.</P>
+                                <P>Mi nombre es susana y soy la cocinera, la que lleva acabo la decoracion y preparacion de las cookies, tengo 4 hijos soy de la zona de San Fernando, me capacite con los mejores y continuo haciendolo, soy fanatica de marvel y la saga Harry Potter me encanta ser creativa y espontanea a la hora de hacer las cookies.</P>
+                            </div>
+                            <div class="box">
+                                <H2>Siguenos</H2>
+                                <div class="red-social">
+                                    <a href="#" class="fa fa-facebook"></a>
+                                    <a href="#" class="fa fa-instagram"></a>
+                                    <a href="#" class="fa fa-twitter"></a>
+                                    <a href="#" class="fa fa-whatsapp"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grupo-2">
+                            <small>&copy;2022 <b>Logo de cookie planeta</b> - Todos los derechos reservados</small>
+                        </div>
+                        <script src="https://kit.fontawesome.com/d84e1bf1f2.js" crossorigin="anonymous"></script>
+                    </footer>
             <!------------- /footer---------------->
             <script src="/js/bootstrap.min.js"></script>
 
