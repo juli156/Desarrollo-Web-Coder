@@ -1,0 +1,23 @@
+Presuuesto:
+
+Nombre- Cookie planeta
+
+Precio total- Diseño del site 10.000$
+            
+            -Desarrollo del site 20.000$
+             
+             -Seo basico 3000$
+
+Sub total: 33.000$
+
+Servicios detallados:
+
+(1) Etapa de prototipado
+    -Configuracion de html5
+    -maquetacion de la pagina
+(2) etapa de desarrollo
+    -Implemetacion de Css y Sas
+    -Sitio Responsive
+
+
+
