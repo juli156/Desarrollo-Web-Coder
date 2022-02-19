@@ -1,4 +1,7 @@
+
+
 /*MAPS */
+
 $mapredes:(facebook:red,instagram:blue,twitter:yellow);
 
 
@@ -15,7 +18,7 @@ $estilo:(
     tamfuente:30px,
 );
 
-.pepelepu{
+.pepelepup{
     background-color: map-get($estilo, color);
     font-size: map-get($estilo , tamfuente);
     height: 150px;

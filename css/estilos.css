@@ -180,7 +180,7 @@ h6 {
 }
 
 /*MAP - GET*/
-.pepelepu {
+.pepelepup {
   background-color: red;
   font-size: 30px;
   height: 150px;
@@ -296,6 +296,16 @@ h6 {
 
 .compras {
   margin: 2rem;
+}
+
+.segundoestilo1 {
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 1.5rem;
+}
+
+.segundoestilo2 {
+  font-size: 1.5rem;
 }
 
 /*---------------Galeria--------------*/
